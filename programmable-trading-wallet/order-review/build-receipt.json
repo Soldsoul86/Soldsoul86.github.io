@@ -1,0 +1,10 @@
+{
+  "classification": "ORDER_REVIEW_ONLY_NOT_AUTHORIZATION",
+  "sourceCommit": "a3273d1048817de4e37e24e92548420ff610f4aa",
+  "sha256": "0aaa5faa3b917b4ea160dee77db9d22eadf73550048ebba744386e7a79e61074",
+  "walletRequests": 0,
+  "exchangeSubmissions": 0,
+  "financialOperations": "DISABLED",
+  "liveMetadata": false,
+  "hostingDeployed": false
+}
