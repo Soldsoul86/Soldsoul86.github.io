@@ -32,6 +32,7 @@ function recordingPage(){
  $('phone').onclick=()=>$('file').click();
  $('file').onchange=()=>{if($('file').files?.[0]){selection=$('file').files[0];showSelection();if($('consent').checked)uploadNow()}};
  $('upload').onclick=uploadNow;
+ if(cfg.protected){const code=new URLSearchParams(location.hash.slice(1)).get('pilot');if(code)$('pilot-code').value=code;}
 }
 function showSelection(){
  stopCam();$('cam').classList.add('hidden');
